@@ -50,7 +50,7 @@ function sortearAmigo() {
     let amigoResultado = Amigos[amigosSorteo];
     console.log(amigosSorteo);
     console.log("El amigo sorteado es: " + amigoResultado);
-    textoReutilizar('h1', `EL SORTEADO ES ${amigoResultado}`);
+    textoReutilizar('h2', `EL SORTEADO ES ${amigoResultado}`);
     alert("El amigo sorteado es: " + amigoResultado);
     borrarLista();
     return amigoResultado;
