@@ -2,7 +2,7 @@ let Amigos = [];
 
 // se agrega funcion para cambiar texto al h1 
 function textoReutilizar(elemento, texto){
-  let TextoReutilizable =  document.querySelector(elemento);
+  let TextoReutilizable =  document.getElementById(elemento);
   TextoReutilizable.innerHTML = texto;
 }
 
@@ -50,7 +50,7 @@ function sortearAmigo() {
     let amigoResultado = Amigos[amigosSorteo];
     console.log(amigosSorteo);
     console.log("El amigo sorteado es: " + amigoResultado);
-    textoReutilizar('h2', `EL SORTEADO ES ${amigoResultado}`)toUpperCase();
+    textoReutilizar('jojod', `EL SORTEADO ES ${amigoResultado}`)toUpperCase();
     alert("El amigo sorteado es: " + amigoResultado);
     borrarLista();
     return amigoResultado;
