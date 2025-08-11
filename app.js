@@ -24,6 +24,7 @@ if (panamax === "") {
         Amigos.push(panamax);
         ordenarAmigos();
         borrarTexto();
+        textoReutilizar('jojos', "Digite el nombre de sus amigos");
         console.log(Amigos);
         return;
     }
