@@ -1,4 +1,11 @@
 let Amigos = [];
+
+// se agrega funcion para cambiar texto al h1 
+function textoReutilizar(elemento, texto){
+  let TextoReutilizable =  document.querySelector(elemento);
+  TextoReutilizable.innerHTML = texto;
+}
+
 //se agregan datos al array
 function agregarAmigo(){
  let panita = document.getElementById('amigo').value;
@@ -58,9 +65,5 @@ function sortearAmigo() {
  function borrarLista() {
     Amigos = [];
  }
-// se agrega funcion para cambiar texto al h1 
-function textoReutilizar(elemento, texto){
-  let TextoReutilizable =  document.querySelector(elemento);
-  TextoReutilizable.innerHTML = texto;
-}
+
 
