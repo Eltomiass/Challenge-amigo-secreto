@@ -12,6 +12,7 @@ function agregarAmigo(){
  let panamax = panita;
 if (panamax === "") {
      alert("error, ingresa un dato valido");
+     textoReutilizar('jojos', "Digite el nombre de sus amigos");
         return;
  
         }
